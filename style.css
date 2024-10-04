@@ -4,5 +4,11 @@
     --bg-color: #000000;
     --primary-color: #FFE1FF;
     --secondary-color: #E3FEF7;
-    --font: "Nunito Sans"
+    --font: "Playwrite Deutschland Grundschrift", sans-serif;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
 }
